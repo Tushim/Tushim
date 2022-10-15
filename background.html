@@ -1,0 +1,38 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    * {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 600px; 
+}
+
+.row:after {
+  content: "";
+  display: flex;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2>Two Equal Columns</h2>
+
+<div class="row">
+  <div class="column" style="background-color:rgb(15, 14, 14);">
+    <p><input type="text">code here</p>
+  </div>
+  <div class="column" style="background-color:rgb(2, 2, 2);">
+    <p><input type="text">code here</p>
+  </div>
+</div>
+
+
+</body>
+</html>
